@@ -25,3 +25,19 @@ You can install the necessary libraries using pip:
 
 ```bash
 pip install pdfplumber python-docx spacy
+
+Also, download the spaCy language model:
+```bash
+python -m spacy download en_core_web_sm
+
+## How to Use
+- Clone or download the resume_parser.py script to your local machine.
+- Place the PDF or DOCX resume you want to parse in a folder.
+- Open a terminal or command prompt and navigate to the folder where the script is located.
+
+Run the script using the following command:
+```bash
+python resume_parser.py
+
+- When prompted, enter the full path to your resume file (e.g., /path/to/resume.pdf).
+- The script will parse the resume and display the extracted data in a JSON format in the terminal.
